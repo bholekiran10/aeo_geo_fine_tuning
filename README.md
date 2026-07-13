@@ -76,7 +76,7 @@ Programmatic example:
 ```python
 from src.inference import generate_answer
 
-question = "How can I apply for reimbursement?"
+question = "How necessary is to have a precise questions and answers like a faq to have in blogs or on websites?"
 answer = generate_answer(question)
 print(answer)
 ```
@@ -84,5 +84,5 @@ print(answer)
 CLI example:
 
 ```bash
-python src/inference.py --question "How can I apply for reimbursement?"
+python src/inference.py --question "How necessary is to have a precise questions and answers like a faq to have in blogs or on websites?"
 ```

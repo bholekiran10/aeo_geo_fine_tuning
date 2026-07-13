@@ -89,7 +89,7 @@ def _main():
     parser.add_argument("--max_new_tokens", type=int, default=220)
     args = parser.parse_args()
 
-    question = args.question or "How necessary is to have a price question and answer like a faq to have on websites?"
+    question = args.question or "How necessary is to have a precise questions and answers like a faq to have in blogs or on websites?"
     answer = generate_answer(question, max_new_tokens=args.max_new_tokens)
 
     print(f"Model source: {MODEL_SOURCE}")
