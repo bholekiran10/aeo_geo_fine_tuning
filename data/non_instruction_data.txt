@@ -1,6 +1,0 @@
-AEO/GEO non-instruction corpus placeholder.
-
-Use this file only if you want a plain-text corpus version in addition to:
-- data/aeo_geo_fine_tuning_corpus.pdf
-
-You can populate this file by extracting cleaned paragraphs from the PDF during preprocessing.
