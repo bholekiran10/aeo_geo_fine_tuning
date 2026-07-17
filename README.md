@@ -10,7 +10,7 @@ AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization)
 Build an internal AI assistant that gives accurate, actionable, and domain-specific answers for AEO/GEO use cases, improving over a generic base model.
 
 ## 4) Dataset Details
-- Non-instruction corpus: `data/non_instruction_data.txt` and/or `data/aeo_geo_fine_tuning_corpus.pdf`
+- Non-instruction corpus: `data/aeo_geo_fine_tuning_corpus.pdf`
 - Instruction dataset: `data/instruction_dataset.jsonl` with `instruction/response`
 - Preference dataset: `data/preference_dataset.jsonl` with `prompt/chosen/rejected`
 
